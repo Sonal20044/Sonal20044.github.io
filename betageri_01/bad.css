@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: yellow;
+    font-family: "Comic Sans MS", cursive;
+}
+
+nav {
+    background-color: hotpink;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    background-color: lime;
+    color: yellow;
+    padding: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    border: 5px solid blue;
+}
+
+nav a:hover {
+    background-color: red;
+    color: blue;
+    font-size: 10px;
+}
+
+nav a.current {
+    background-color: cyan;
+    color: hotpink;
+}
+
+@media (min-width: 770px) {
+
+    nav ul {
+        display: flex;
+    }
+
+}
